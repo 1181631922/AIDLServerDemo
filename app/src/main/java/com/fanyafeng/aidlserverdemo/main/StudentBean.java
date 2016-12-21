@@ -1,4 +1,4 @@
-package com.fanyafeng.aidlserverdemo;
+package com.fanyafeng.aidlserverdemo;//注意此包名需要与aidl下的StudentBean.aidl的包名相对应，否则提示找不到
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -8,7 +8,7 @@ import android.os.Parcelable;
  * Data： 16/12/21 下午3:51
  * Email: fanyafeng@live.cn
  */
-public class StudentBean implements Parcelable{
+public class StudentBean implements Parcelable {
     private int id;
     private String name;
     private int age;
